@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/good-share/static/js/main.25363acc.chunk.js",
-    "main.js.map": "/good-share/static/js/main.25363acc.chunk.js.map",
+    "main.js": "/good-share/static/js/main.d286f2c0.chunk.js",
+    "main.js.map": "/good-share/static/js/main.d286f2c0.chunk.js.map",
     "runtime-main.js": "/good-share/static/js/runtime-main.972a8165.js",
     "runtime-main.js.map": "/good-share/static/js/runtime-main.972a8165.js.map",
     "static/css/2.150d169a.chunk.css": "/good-share/static/css/2.150d169a.chunk.css",
-    "static/js/2.5050e967.chunk.js": "/good-share/static/js/2.5050e967.chunk.js",
-    "static/js/2.5050e967.chunk.js.map": "/good-share/static/js/2.5050e967.chunk.js.map",
+    "static/js/2.7e21f857.chunk.js": "/good-share/static/js/2.7e21f857.chunk.js",
+    "static/js/2.7e21f857.chunk.js.map": "/good-share/static/js/2.7e21f857.chunk.js.map",
     "index.html": "/good-share/index.html",
     "static/css/2.150d169a.chunk.css.map": "/good-share/static/css/2.150d169a.chunk.css.map",
-    "static/js/2.5050e967.chunk.js.LICENSE.txt": "/good-share/static/js/2.5050e967.chunk.js.LICENSE.txt"
+    "static/js/2.7e21f857.chunk.js.LICENSE.txt": "/good-share/static/js/2.7e21f857.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.972a8165.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.5050e967.chunk.js",
-    "static/js/main.25363acc.chunk.js"
+    "static/js/2.7e21f857.chunk.js",
+    "static/js/main.d286f2c0.chunk.js"
   ]
 }
