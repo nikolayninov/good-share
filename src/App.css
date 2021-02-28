@@ -1,0 +1,7 @@
+.sticky-nav{
+    position: sticky;
+    top:0;
+}
+   .caret {
+display: none;
+}
