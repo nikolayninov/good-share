@@ -23,7 +23,7 @@ function App() {
           <AuthProvider>
             <Navbar bg="dark" variant="dark" expand="lg" className="align-top sticky-nav ">
               <Navbar.Brand >
-                <Image src="/logo.png" width="50" height="50" className="d-inline-block align-top" rounded />
+                <Image src="https://image.prntscr.com/image/huNRaTfJSKe6086oEotHaw.png" width="50" height="50" className="d-inline-block align-top" rounded />
               </Navbar.Brand>
               <Form inline>
                 <FormControl type="text" placeholder="Search" className="mr-sm-1" />
@@ -42,7 +42,7 @@ function App() {
 
               <NavDropdown title={
                 <Link to="/">
-                  <Image src="https://empire-s3-production.bobvila.com/articles/wp-content/uploads/2014/12/raccoon.jpg" width="50" height="50" className="d-inline-block " rounded />
+                  <Image src="https://simplyilm.com/wp-content/uploads/2017/08/temporary-profile-placeholder-1.jpg" width="50" height="50" className="d-inline-block " rounded />
                 </Link>
               } className="caret">
                 <NavDropdown.Item>

@@ -1,5 +1,6 @@
 import { render } from '@testing-library/react';
 import React, { useState } from 'react';
+import { useAuth } from '../contexts/AuthContext'
 import { Container, Form, Button, Navbar, FormControl, Image, Nav, NavDropdown, Card, Row, Col } from 'react-bootstrap'
 import firebase from 'firebase/app'
 
@@ -12,7 +13,6 @@ class Matching extends React.Component {
             offers: []
         }
     }
-
     componentDidMount() {
         const usersRef = firebase.database().ref('users')
         usersRef.on('value', (snapshot) => {
@@ -60,13 +60,14 @@ class Matching extends React.Component {
                     <Card body className="">
                         Offers
                         {
-                            this.state.offers.map(offer => {
-                                return (
-                                    <Card>
-                                        Offer {offer.description}
-                                    </Card>
-                                )
-                            })
+                            this.state.offers
+                                .map(offer => {
+                                    return (
+                                        <Card>
+                                            Offer {offer.description}
+                                        </Card>
+                                    )
+                                })
                         }
                     </Card>
                 </Col>
