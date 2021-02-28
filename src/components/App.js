@@ -30,7 +30,11 @@ function App() {
               </Form>
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                  <Nav.Link href="/" className="navbar-element">Home</Nav.Link>
+                  <Nav.Link href="/" className="navbar-element">
+                    <Link to="/">
+                      Home
+                    </Link>
+                  </Nav.Link>
                   <Nav.Link href="/market" className="navbar-element">
                     <Link to="/market">
                       Market
