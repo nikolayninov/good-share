@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
-import { useAuth } from '../contexts/AuthContext'
+import React from 'react'
 import { AuthProvider } from '../contexts/AuthContext';
-import { HashRouter as Router, Switch, Route, Link, useHistory } from 'react-router-dom'
+import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import { Container, Form, Button, Navbar, FormControl, Image, Nav, NavDropdown } from 'react-bootstrap'
 
 import Dashboard from './Dashboard'

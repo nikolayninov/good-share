@@ -1,7 +1,5 @@
-import { render } from '@testing-library/react';
-import React, { useState } from 'react';
-import { useAuth } from '../contexts/AuthContext'
-import { Container, Form, Button, Navbar, FormControl, Image, Nav, NavDropdown, Card, Row, Col } from 'react-bootstrap'
+import React from 'react';
+import { Card, Row, Col } from 'react-bootstrap'
 import firebase from 'firebase/app'
 
 class Matching extends React.Component {
